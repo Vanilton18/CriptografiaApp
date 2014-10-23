@@ -1,6 +1,8 @@
 #Encoding: Cp1252
-Feature: Example of Feature with Sikuli api
-
+Feature: Como usuário do aplicativo Criptografia
+		 Gostaria de realizar criptografia para Sha1
+		 Então poderei criptografar minhas informações
+		 
 Background: 
 	Given Estou com o aplicativo Criptografias aberto
 
