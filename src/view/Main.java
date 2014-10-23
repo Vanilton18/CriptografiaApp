@@ -135,17 +135,17 @@ public class Main {
 
 		JMenu MenuFile = new JMenu("File");
 		menuBar.add(MenuFile);
-
+/*
 		JMenuItem mntmAbrir = new JMenuItem("Abrir");
 		MenuFile.add(mntmAbrir);
-
+*/
 		JMenuItem mntmSair = new JMenuItem("Sair");
 		mntmSair.setAction(acaoSair);
 		MenuFile.add(mntmSair);
-
+/*
 		JMenu MenuEditar = new JMenu("Editar");
 		menuBar.add(MenuEditar);
-
+*/
 	}
 
 	@SuppressWarnings("serial")
@@ -160,7 +160,6 @@ public class Main {
 					"Operação", 0) == 0) {
 				System.exit(0);
 			}
-			;
 		}
 	}
 }
