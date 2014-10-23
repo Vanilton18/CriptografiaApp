@@ -4,7 +4,9 @@ CriptografiaApp
 Aplicação simples de Critptografias, atualmente com as opções SHA1 e MD5.
 
 Existem testes de aceite com JUnit e Sikuli. 
+
 Testes com Cucumber JVM + Sikuli
+
 Testes unitários com JUnit
 
 Ambiente desenvolvido
