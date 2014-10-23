@@ -21,7 +21,7 @@ import encode.MD5Criptografia;
 import encode.Sha1;
 
 public class Main {
-	private JFrame frame;
+	public JFrame frame;
 	private final JTextField input = new JTextField();
 	private final TextField result = new TextField();
 	String[] comboStrings = { "SHA1", "MD5" };
@@ -32,6 +32,7 @@ public class Main {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -77,8 +78,6 @@ public class Main {
 		frame.getContentPane().add(comboTipo);
 		comboTipo.setVisible(true);
 		comboTipo.setEditable(false);
-
-		System.out.println("#items=" + comboTipo.getItemCount());
 
 		// Botão Criptografar
 		btnCriptografar = new JButton("Criptografar");
@@ -158,7 +157,7 @@ public class Main {
 
 		public void actionPerformed(ActionEvent e) {
 			if (JOptionPane.showConfirmDialog(null, "Deseja realmente sair?",
-					null, 0) == 0) {
+					"Operação", 0) == 0) {
 				System.exit(0);
 			}
 			;
