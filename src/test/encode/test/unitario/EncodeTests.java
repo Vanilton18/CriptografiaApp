@@ -7,7 +7,7 @@ import org.junit.Test;
 import encode.MD5Criptografia;
 import encode.Sha1;
 
-public class Sha1Test {
+public class EncodeTests {
 	MD5Criptografia md5;
 	private String test;
 	private String result;
